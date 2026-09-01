@@ -1,0 +1,19 @@
+notes 8/27/2026
+
+types of data
+
+string
+integer
+age = 30 (30 is an integer literal)
+
+Modulo = remainder calculator 13 % 3 ==1 
+
+
+
+HOW TO DO HW
+
+before you have to close the remote connection
+
+fork in github
+clone to your computer
+open in VS code in the dev container
