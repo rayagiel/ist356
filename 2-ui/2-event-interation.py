@@ -2,6 +2,7 @@ import streamlit as st
 
 
 def hi_click():
+    global name
     if name:
         st.success(f"Hello, {name}", icon="👍")
     else:

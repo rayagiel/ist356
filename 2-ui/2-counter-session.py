@@ -5,6 +5,7 @@ import streamlit as st
 # initialize
 if 'count' not in st.session_state:
     st.session_state.count = 0
+# this inititializes the incremental counter for each session of the session state
 
 # widget setup
 st.title('Counter Example: Session State')
