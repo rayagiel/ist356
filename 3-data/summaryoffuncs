@@ -1,0 +1,22 @@
+Choose an aggregation ...
+
+Summary    |  1 Dimension (row only)  | 2 Dimensions (row + column)
+Yes        |  .groupby()              | .pivot_table()
+NO         |(Just show df)            | .pivot()
+
+use case for pivot / unpivot
+
+take values in one column and make the several columns -> pivot()
+    - only for discreet variable, you would not want to pivot on peoples names, but you could pivot on people's grades
+take values in columns and represent them in rows -> unpivot()
+
+.melt() is for you want to unmelt something
+
+ex for melt
+list of students with a row for each and columns of their first, second, third choice of classes they want to register for
+you have to switch so you can find out how many people want to take each classes
+
+ex
+list of customers with rows for each that has several numbers of work, cell, and home 
+some blanks and some full
+if you want a list with all of the phone numbers, you would use melt
